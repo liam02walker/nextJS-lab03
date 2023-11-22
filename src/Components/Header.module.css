@@ -1,0 +1,32 @@
+.headerStyle {
+  width: 100vw;
+  height: 10vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: aliceblue;
+  color: black;
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.linkContainer {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.linkStyle {
+  padding: 4px;
+  background-color: grey;
+  border: 1px solid black;
+  height: 100%;
+}
+.linkStyle:hover {
+  background-color: rgba(0, 255, 255, 0.08);
+}
